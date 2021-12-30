@@ -309,6 +309,7 @@ html {
 .desktop {
   width: 100%;
   max-width: 100px;
+  height: 100%;
   max-height: 100px;
   opacity: 50%;
 }
@@ -380,7 +381,7 @@ html {
   font-weight: 300;
   text-transform: uppercase;
   color: rgb(194, 194, 194);
-  margin: 20px;
+  margin: 0;
   letter-spacing: 1px;
 }
 .game-anim {
