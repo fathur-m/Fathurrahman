@@ -276,7 +276,6 @@ html {
 /* DESIGN  */
 #design {
   height: 100%;
-  position: relative;
 }
 
 .content-design {
@@ -310,6 +309,7 @@ html {
 .desktop {
   width: 100%;
   max-width: 100px;
+  max-height: 100px;
   opacity: 50%;
 }
 .minimalist {
@@ -334,6 +334,8 @@ html {
 .mobile-phone {
   width: 100%;
   max-width: 150px;
+  height: 100%;
+  max-height: 150px;
   opacity: 80%;
 }
 .mobileapp {
@@ -383,7 +385,9 @@ html {
 }
 .game-anim {
   width: 100%;
-  max-width: 180px;
+  max-width: 160px;
+  height: 100%;
+  max-height: 160px;
 }
 
 /* GAME SECTION */
@@ -980,6 +984,7 @@ html {
   .desktop {
     width: 100%;
     max-width: 270px;
+    max-height: 270px;
     opacity: 50%;
   }
   .minimalist {
@@ -1004,6 +1009,7 @@ html {
   .mobile-phone {
     width: 100%;
     max-width: 250px;
+    max-height: 250px;
     opacity: 80%;
   }
   .mobileapp {
@@ -1052,7 +1058,7 @@ html {
   }
   .playgame-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: unset;
     justify-content: center;
     align-items: center;
   }
