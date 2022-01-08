@@ -1750,6 +1750,7 @@ html {
     max-width: 300px;
     margin: 0 auto;
     font-family: var(--Lato);
+    font-size: 14px;
     color: #929292;
   }
 
