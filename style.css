@@ -967,6 +967,7 @@ html {
   margin: 0 auto;
   font-family: var(--Lato);
   color: #929292;
+  font-size: 12px;
 }
 
 .footer-social {
@@ -1750,7 +1751,7 @@ html {
     max-width: 300px;
     margin: 0 auto;
     font-family: var(--Lato);
-    font-size: 14px;
+    font-size: 12px;
     color: #929292;
   }
 
