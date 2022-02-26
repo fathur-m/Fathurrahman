@@ -547,4 +547,5 @@ MEDIA QUERY
   }
   .sending-msg {
     max-width: calc(100% - 2rem);
+  }
 }
