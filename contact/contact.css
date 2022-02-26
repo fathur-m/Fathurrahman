@@ -317,6 +317,7 @@ MAIN CONTENT
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   background: var(--navBg);
+  margin: 1rem;
   width: 100%;
   max-width: 400px;
   height: 250px;
