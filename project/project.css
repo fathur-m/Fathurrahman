@@ -428,6 +428,7 @@ span > i {
   }
   .card-desc {
     max-width: 300px;
+    align-item: center;
   }
 }
 @media only screen and (max-width: 600px) {
