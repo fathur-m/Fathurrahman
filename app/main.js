@@ -4,6 +4,12 @@ const body = document.body;
 const darkModeBtn = document.getElementById("toggle-dark");
 let darkMode = localStorage.getItem("darkMode");
 let click = true;
+const siteBtn = document.getElementById("close-site");
+const siteDiv = document.querySelector(".new-site");
+
+siteBtn.addEventListener("click", () => {
+  siteDiv.style.display = "none";
+});
 
 // DARKMODE
 const enableDarkMode = () => {

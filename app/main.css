@@ -2,6 +2,47 @@
 MAIN CSS
 Author : Fathurrahman Muhammad
 */
+.new-site {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #eee;
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
+}
+.text-site {
+  color: black;
+  text-shadow: none;
+  text-align: center;
+}
+.new-site > a {
+  text-shadow: none;
+  margin: 1rem 0;
+  background: #315eb2;
+  padding: 8px 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.301);
+}
+.new-site > button {
+  margin: 1rem 0 0;
+  padding: 10px 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px #00000037;
+  color: white;
+  background: #d94242;
+  cursor: pointer;
+}
 :root {
   /* background */
   --darkBg: #1f252c;
